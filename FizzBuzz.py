@@ -10,7 +10,7 @@ def main():
         elif i % FIZZ == 0:
             print("Fizz")
         elif i % BUZZ == 0:
-            print("Buzz ")
+            print("Buzz")
         else:
             print(i)
         
