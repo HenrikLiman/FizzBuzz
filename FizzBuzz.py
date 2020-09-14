@@ -1,7 +1,8 @@
 FIZZ = 3
 BUZZ = 5
 FIZZBUZZ = FIZZ * BUZZ
-#in add42
+
+
 def main():
     for i in range(1, 101):
         if i % FIZZBUZZ == 0:
@@ -15,8 +16,6 @@ def main():
 
         else:
             print(i)
-        
-
 
 
 if __name__ == '__main__':
